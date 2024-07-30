@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Inter", sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+
+/* Navbar style */
+
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul{
+  display: flex;
+  gap: 47px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 39px;
+  padding: 8px 4px;
+  padding-right: 26px;
+}
+
+.navbar li{
+  list-style-type: none;
+}
+
+.navbar a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: #FFF;
+}
+
+
+.logo{
+  color: #E6533C;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.menu-icon{
+  display: none;
+}
+
+/* Hero section styles */
+
+
+.header, .navbar{
+  max-width: 85%;
+  margin: 30px auto;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.header-content{
+  margin-bottom: 150px;
+}
+
+.header-title{
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+
+.header-description{
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 28px;
+  line-height: 24px;
+}
+
+
+/* Button styles */
+
+
+.btn-header-1{
+  padding: 16px 42px;
+  background: rgba(230, 83, 60, 1);
+  color: #FFF;
+  font-size: 1rem;
+  border-radius: 42px;
+  border: none;
+}
+
+.btn-header-2{
+  padding: 16px 42px;
+  color: #FFF;
+  font-size: 1rem;
+  background: none;
+  border-radius: 42px;
+  border: 1px solid #FFF;
+  margin-top: 28px;
+  margin-left: 14px;
+}
+
+
+/* Badges styles */
+
+
+.header-badge1{
+  padding: 12px 25px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  position: relative;
+  bottom: 450px;
+  left: 200px;
+}
+
+.badge-title{
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+.badge-description{
+  color: rgba(255, 255, 255, 0.65);
+  line-height: 25px;
+  font-size: 0.8rem;
+}
+
+.header-badge2{
+  padding: 12px 26px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+  bottom: 200px;
+  left: 10px;
+  
+}
+
+.play-icon{
+  width: 40px;
+}
+
+.badge-title2{
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 900;
+  text-align: left;
+}
+
+
+/* Additional styles */
+
+
+#link-style{
+  background: rgba(230, 83, 60, 1) ;
+  padding: 5px 18px;
+  border-radius: 46px;
+}
+
+#title-style{
+font-family: "Miama", sans-serif;
+font-size: 7rem;
+line-height: 0;
+font-weight: 400;
+}
+
+/* Habbits section styles */
+
+.habbits-section{
+  max-width: 85%;
+  margin: auto;
+  margin-top: -130px;
+
+  
+}
+
+.section-title{
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+
+.section-description{
+  text-align: center;
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 14px;
+}
+
+.trainers{
+  display: flex;
+  gap: 30px;
+  margin-top: 58px;
+}
+
+.trainer img{
+  border-radius: 400px;
+  max-width: 250px;
+  border: 3px solid rgba(255, 255, 255, 0.1);
+}
+
+.trainer{
+  text-align: center;
+}
+
+.trainer-title{
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.trainer-description{
+  margin-top: 6px;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 18px;
+  font-size: 0.8rem;
+}
+
+/* Run section title */
+
+.run-section{
+  display: flex;
+  gap: 60px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 80px;
+  background: rgba(34, 34, 34, 1);
+  border-radius: 18px;
+  padding: 25px 23px 25px 35px;
+  
+}
+
+.run-section img{
+  max-width: 366px;
+  border-radius: 18px;
+  object-fit: none;
+  object-position: 65% 28%;
+  
+}
+
+.run-title{
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+.run-description{
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 20px;
+  margin-top: 14px;
+}
+
+.run-btn{
+  padding: 16px 52px;
+  border-radius: 42px;
+  border: none;
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 600;
+  background: rgba(230, 83, 60, 1);
+  margin-top: 28px;
+}
+
+
+/* Medium Device Responsive */
+
+
+@media screen and (max-width: 576px) {
+  
+.navbar, .header{
+  max-width: 90%;
+  margin: 30px auto;
+}
+
+ 
+   /* Navbar */
+  
+ .navbar ul{
+   display: none;
+ }
+ 
+ .menu-icon{
+display: block;
+}
+
+
+/* Hero section */
+
+
+.header{
+  flex-direction: column;
+  margin-top: 51px;
+}
+
+.header-content{
+  margin-bottom: 45px;
+}
+.header-title{
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.header-description{
+  width: 300px;
+}
+
+#title-style{
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+
+.btn-header-1{
+  padding: 16px 38px;
+  font-size: 0.9rem;
+}
+
+.btn-style1{
+  display: none;
+}
+
+.header-badge1{
+  bottom: 530px;
+  left: 190px;
+  padding: 9px 20px;
+}
+
+.badge-title1{
+  font-size: 1.8rem;
+}
+
+.badge-description1{
+  font-size: 5rem;
+}
+.btn-header-2{
+  padding: 16px 38px;
+  font-size: 0.9rem;
+}
+
+.header-badge2{
+  bottom: 250px;
+  padding: 12px 20px;
+}
+
+.play-icon{
+  width: 30px;
+}
+
+.badge-title2{
+  font-size: 1.1rem;
+}
+
+/* Habbits section */
+
+.trainers{
+  flex-direction: column;
+}
+
+.section-title{
+  font-size: 2.2rem;
+}
+
+/* Run section */
+
+.run-section{
+  flex-direction: column;
+  max-width: 75%;
+  margin: 50px auto;
+  
+}
+
+.run-section  img {
+  max-width: 100%;
+  margin: auto;
+  margin-top: -20px;
+  object-fit: contain;
+}
+
+.run-section-content{
+  max-width: 100%
+}
+
+.run-title{
+  font-size: 2rem;
+}
+
+.run-btn{
+  display: block;
+  margin: auto;
+  margin-top: 28px;
+  padding: 16px 100px 16px 100px;
+}
+
+
+}
