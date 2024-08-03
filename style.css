@@ -45,6 +45,7 @@ body{
   color: #E6533C;
   font-style: italic;
   font-size: 2rem;
+  font-weight: 800;
 }
 
 .menu-icon{
@@ -471,6 +472,80 @@ filter: brightness(0.75);
 }
 
 
+/* Footer styles */
+
+.footer{
+  background: rgba(255, 255, 255, 0.10);
+  height: 360px;
+  margin-top: 88px;
+}
+
+.footer-section{
+  display: flex;
+  max-width: 85%;
+  margin: 0px auto;
+  gap: 80px;
+}
+
+.footer-content{
+  width: 45%;
+  margin-top: 66px;
+}
+
+.footer-content-logo{
+  font-size: 2rem;
+  color: #E6533C;
+  font-style: italic;
+  font-weight: 800;
+}
+
+.footer-content-description{
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.footer-list-1, .footer-list-2{
+  margin-top: 66px;
+}
+
+.list-title{
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.footer-list-1 li{
+  list-style: none;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+
+.footer-list-2 li{
+  list-style: none;
+  margin-top: 10px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+
+.hr-line{
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  position: relative;
+  top: 55px;
+  filter: brightness(0.3);
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.footer-copyright{
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-top: 75px;
+}
+
 /* Medium Device Responsive */
 
 
@@ -646,4 +721,28 @@ display: block;
 .team-hide{
   display: none;
 }
+
+/* Footer section */
+
+.footer{
+  height: 756px;
+}
+
+.footer-section{
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-content-logo{
+  font-size: 3rem;
+}
+
+.footer-content{
+  width: 95%;
+}
+
+.footer-list-1, .footer-list-2{
+  margin-top: 0px;
+}
+
 }
